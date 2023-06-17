@@ -19,6 +19,7 @@ namespace = {'x': 10, 'y': 3}
 result = eval("x * y", namespace)
 print(result)  # Output: 30
 
+
 # Example 1:
 
 # Assigning values to variables
