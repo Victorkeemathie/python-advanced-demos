@@ -1,3 +1,25 @@
+# Title: Working with Python Calendar Module
+# Explanation: The 'calendar' module in Python provides functionalities for working with calendars, such as displaying calendars for specific months or years, determining leap years, and more.
+# Example 1: Generating a calendar for a specific year
+import calendar
+year = 2023  # Specify the year for which we want to generate the calendar
+calendar_year = calendar.calendar(year)  # Generate the calendar for the specified year
+print(calendar_year)  # Print the calendar for the specified year
+
+# Example 2
+import calendar  # Importing the 'calendar' module to work with calendars
+year = 2021  # Assigning the value 2021 to the variable 'year'
+month = 9  # Assigning the value 9 to the variable 'month'
+print(calendar.month(year, month))  # Printing the calendar for the specified year and month
+
+# Example 3: 
+import calendar  # Importing the 'calendar' module to work with calendars
+new_cal = calendar.HTMLCalendar(firstweekday=0)  # Creating a new HTMLCalendar object with the first day of the week set to Monday (0)
+formatted_month = new_cal.formatmonth(2021, 9, withyear=True)  # Generating the HTML representation of the calendar month for September 2021
+print(formatted_month)  # Printing the formatted calendar month
+
+# Time in Python:
+
 import time
 # Title: Working with Python Date Object
 # Explanation: Python provides the 'time' module to work with date and time-related functionality.
